@@ -1,0 +1,11 @@
+{
+  "appName": "Tex Corver",
+  "home": {
+    "title": "Trang chủ - {appName}",
+    "description": "Trang chủ của {appName}"
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang",
+    "description": "Trang bạn đang tìm kiếm không tồn tại"
+  }
+}
