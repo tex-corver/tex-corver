@@ -1,6 +1,8 @@
+import MainLayout from "@/components/layouts/main";
 import { routing } from "@/i18n/routing";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
+import { ThemeProvider } from "next-themes";
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 
@@ -24,6 +26,22 @@ export async function generateMetadata({
   return {
     title: t("home.title", { appName: t("appName") }),
     description: t("home.description", { appName: t("appName") }),
+    robots: {
+      index: true,
+      follow: true,
+    },
+    icons: {
+      icon: "/favicon.ico",
+      shortcut: "/favicon.ico",
+      apple: "/apple-touch-icon.png",
+    },
+    // openGraph: {
+    //   title: t("home.title", { appName: t("appName") }),
+    //   description: t("home.description", { appName: t("appName") }),
+    //   images: [
+    //     { url: "/og-image.png" },
+    //   ],
+    // },
   };
 }
 
@@ -46,7 +64,13 @@ export default async function LocaleLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+          >
+            <MainLayout>{children}</MainLayout>
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>

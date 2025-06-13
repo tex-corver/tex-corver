@@ -1,1 +1,19 @@
-{}
+{
+  "appName": "Tex Corver",
+  "home": {
+    "title": "{appName} - Home",
+    "description": "Home page for {appName}"
+  },
+  "notFound": {
+    "title": "404 - Not Found",
+    "description": "Page not found"
+  },
+  "common": {
+    "home": "Home",
+    "ourVision": "Our Vision",
+    "highlightedProducts": "Our Products",
+    "ourClients": "Our Clients",
+    "boardOfDirectors": "Board of Directors",
+    "teamMembers": "Team Members"
+  }
+}

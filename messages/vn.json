@@ -5,7 +5,15 @@
     "description": "Trang chủ của {appName}"
   },
   "notFound": {
-    "title": "Không tìm thấy trang",
+    "title": "404 - Không tìm thấy trang",
     "description": "Trang bạn đang tìm kiếm không tồn tại"
+  },
+  "common": {
+    "home": "Trang chủ",
+    "ourVision": "Tầm nhìn của chúng tôi",
+    "ourProducts": "Sản phẩm của chúng tôi",
+    "ourClients": "Khách hàng của chúng tôi",
+    "boardOfDirectors": "Hội đồng quản trị",
+    "teamMembers": "Thành viên đội ngũ"
   }
 }

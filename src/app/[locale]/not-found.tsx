@@ -1,3 +1,4 @@
+import Container from "@/components/layouts/container";
 import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata({
@@ -14,5 +15,9 @@ export async function generateMetadata({
 }
 
 export default function NotFound() {
-  return <div>Not Found</div>;
+  return (
+    <Container>
+      <h1>Not Found</h1>
+    </Container>
+  );
 }
