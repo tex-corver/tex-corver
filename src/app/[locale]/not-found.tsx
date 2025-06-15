@@ -1,23 +1,16 @@
-import Container from "@/components/layouts/container";
-import { getTranslations } from "next-intl/server";
+"use client";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { locale: string };
-}) {
-  const { locale } = await params;
-  const t = await getTranslations({ locale });
-  return {
-    title: t("notFound.title"),
-    description: t("notFound.description"),
-  };
-}
+import NotFoundSection from "@/components/sections/not-found";
+import { useTranslations } from "next-intl";
+import { useEffect } from "react";
 
 export default function NotFound() {
-  return (
-    <Container>
-      <h1>Not Found</h1>
-    </Container>
-  );
+  const t = useTranslations();
+  useEffect(() => {
+    document.title = t("notFound.title");
+    document
+      .querySelector("meta[name='description']")
+      ?.setAttribute("content", t("notFound.description"));
+  }, [t]);
+  return <NotFoundSection />;
 }

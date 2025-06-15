@@ -17,7 +17,7 @@ const Section: ForwardRefExoticComponent<
     return (
       <section
         id={id}
-        className={cn("container mx-auto", className)}
+        className={cn("container mx-auto px-8 py-12", className)}
         ref={ref}
         {...props}
       >

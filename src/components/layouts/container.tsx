@@ -15,7 +15,11 @@ const Container: ForwardRefExoticComponent<
 > = forwardRef<HTMLDivElement, ContainerProps>(
   ({ children, className, ...props }, ref) => {
     return (
-      <div ref={ref} className={cn("container mx-auto", className)} {...props}>
+      <div
+        ref={ref}
+        className={cn("container mx-auto", className)}
+        {...props}
+      >
         {children}
       </div>
     );

@@ -10,10 +10,51 @@
   },
   "common": {
     "home": "Trang chủ",
-    "ourVision": "Tầm nhìn của chúng tôi",
-    "ourProducts": "Sản phẩm của chúng tôi",
-    "ourClients": "Khách hàng của chúng tôi",
+    "ourVision": "Tầm nhìn",
+    "ourProducts": "Sản phẩm",
+    "ourClients": "Khách hàng",
     "boardOfDirectors": "Hội đồng quản trị",
-    "teamMembers": "Thành viên đội ngũ"
+    "teamMembers": "Đội ngũ"
+  },
+  "theme": {
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống"
+  },
+  "lang": {
+    "en": "Tiếng Anh",
+    "vn": "Tiếng Việt"
+  },
+  "hero": {
+    "title": "Chào mừng đến với <span>{appName}</span>",
+    "description": "Chúng tôi là một đội ngũ nhà phát triển có đam mê với việc tạo ra các trang web đẹp và hàm năng.",
+    "button": "Bắt đầu"
+  },
+  "ourVision": {
+    "title": "Tầm nhìn",
+    "description": "Chúng tôi là một đội ngũ nhà phát triển có đam mê với việc tạo ra các trang web đẹp và hàm năng."
+  },
+  "ourProducts": {
+    "title": "Sản phẩm",
+    "description": "Chúng tôi là một đội ngũ nhà phát triển có đam mê với việc tạo ra các trang web đẹp và hàm năng."
+  },
+  "ourClients": {
+    "title": "Khách hàng",
+    "description": "Chúng tôi là một đội ngũ nhà phát triển có đam mê với việc tạo ra các trang web đẹp và hàm năng."
+  },
+  "boardOfDirectors": {
+    "title": "Hội đồng quản trị",
+    "description": "Chúng tôi là một đội ngũ nhà phát triển có đam mê với việc tạo ra các trang web đẹp và hàm năng."
+  },
+  "teamMembers": {
+    "title": "Đội ngũ",
+    "description": "Chúng tôi là một đội ngũ nhà phát triển có đam mê với việc tạo ra các trang web đẹp và hàm năng."
+  },
+  "footer": {
+    "description": "Chúng tôi là một đội ngũ nhà phát triển có đam mê với việc tạo ra các trang web đẹp và hàm năng.",
+    "copyright": "Bản quyền © 2025 <span>{appName}</span>. Tất cả quyền được bảo lưu.",
+    "contact": {
+      "email": "Email: {email}"
+    }
   }
 }

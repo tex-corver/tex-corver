@@ -10,10 +10,51 @@
   },
   "common": {
     "home": "Home",
-    "ourVision": "Our Vision",
-    "highlightedProducts": "Our Products",
-    "ourClients": "Our Clients",
+    "ourVision": "Vision",
+    "ourProducts": "Products",
+    "ourClients": "Clients",
     "boardOfDirectors": "Board of Directors",
-    "teamMembers": "Team Members"
+    "teamMembers": "Team"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "lang": {
+    "en": "English",
+    "vn": "Vietnamese"
+  },
+  "hero": {
+    "title": "Welcome to <span>{appName}</span>",
+    "description": "We are a team of developers who are passionate about creating beautiful and functional websites.",
+    "button": "Get Started"
+  },
+  "ourVision": {
+    "title": "Our Vision",
+    "description": "We are a team of developers who are passionate about creating beautiful and functional websites."
+  },
+  "ourProducts": {
+    "title": "Our Products",
+    "description": "We are a team of developers who are passionate about creating beautiful and functional websites."
+  },
+  "ourClients": {
+    "title": "Our Clients",
+    "description": "We are a team of developers who are passionate about creating beautiful and functional websites."
+  },
+  "boardOfDirectors": {
+    "title": "Board of Directors",
+    "description": "We are a team of developers who are passionate about creating beautiful and functional websites."
+  },
+  "teamMembers": {
+    "title": "Team Members",
+    "description": "We are a team of developers who are passionate about creating beautiful and functional websites."
+  },
+  "footer": {
+    "description": "We are a team of developers who are passionate about creating beautiful and functional websites.",
+    "copyright": "Copyright © 2025 <span>{appName}</span>. All rights reserved.",
+    "contact": {
+      "email": "Email: {email}"
+    }
   }
 }
