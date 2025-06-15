@@ -10,7 +10,6 @@ import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuList,
-  navigationMenuTriggerStyle,
 } from "../ui/navigation-menu";
 import LangSwitch, { LangSwitchItem } from "../lang-switch";
 import { useSidebar } from "../ui/sidebar";
