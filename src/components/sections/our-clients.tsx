@@ -51,15 +51,15 @@ export default function OurClients() {
   ];
   return (
     <Section id="our-clients">
-      <div className="flex flex-col items-center justify-center gap-4 text-center md:text-left">
-        <h1 className="text-4xl font-bold">{t("ourClients.title")}</h1>
-        <p className="max-w-2xl px-4 text-lg text-center text-muted-foreground">
+      <div className="flex flex-col justify-center items-center gap-4 md:text-left text-center">
+        <h1 className="font-bold text-4xl">{t("ourClients.title")}</h1>
+        <p className="px-4 max-w-2xl text-muted-foreground text-lg text-center">
           {t("ourClients.description")}
         </p>
       </div>
-      <div className="relative w-full mt-12 overflow-hidden">
+      <div className="relative mt-12 w-full overflow-hidden">
         {/* Marquee */}
-        <Marquee className="w-full" speed={100}>
+        <Marquee className="w-full max-w-[calc(100vw-5rem)]" speed={100}>
           {clients.map((client, idx) => (
             <div key={idx} className="flex items-center gap-2 p-4">
               <Image
@@ -67,7 +67,7 @@ export default function OurClients() {
                 alt={client.name}
                 width={100}
                 height={100}
-                className="object-cover w-16 h-16"
+                className="w-16 h-16 object-cover"
               />
               {client.name}
             </div>
@@ -75,10 +75,10 @@ export default function OurClients() {
         </Marquee>
 
         {/* Left gradient overlay */}
-        <div className="absolute top-0 left-0 z-10 w-16 h-full pointer-events-none bg-gradient-to-r from-background to-transparent" />
+        <div className="top-0 left-0 z-10 absolute bg-gradient-to-r from-background to-transparent w-16 h-full pointer-events-none" />
 
         {/* Right gradient overlay */}
-        <div className="absolute top-0 right-0 z-10 w-16 h-full pointer-events-none bg-gradient-to-l from-background to-transparent" />
+        <div className="top-0 right-0 z-10 absolute bg-gradient-to-l from-background to-transparent w-16 h-full pointer-events-none" />
       </div>
     </Section>
   );
