@@ -27,36 +27,39 @@ export default function OurVision() {
     },
   ];
   return (
-    <Section id="our-vision">
-      <div className="flex flex-col items-center justify-center gap-4 text-center md:text-left">
-        <h1 className="text-4xl font-bold">{t("ourVision.title")}</h1>
-        <p className="max-w-2xl px-4 text-lg text-center text-muted-foreground">
-          {t("ourVision.description")}
-        </p>
-      </div>
-      <div className="grid grid-cols-1 gap-4 mt-12 md:grid-cols-2 lg:grid-cols-4 md:text-left">
-        {visions.map((vision) => (
-          <div
-            key={vision.title}
-            className="flex flex-col gap-2 text-center border rounded-md shadow-md md:text-left"
-          >
-            <div className="flex flex-col gap-2 p-4">
-              <h2 className="text-lg font-bold">{vision.title}</h2>
-              <p className="text-base text-muted-foreground">
-                {vision.description}
-              </p>
+    <Section id="our-vision" className="py-24 relative">
+      <div className="container mx-auto px-4">
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            {t("ourVision.title")}
+          </h2>
+          <p className="text-xl text-muted-foreground">
+            {t("ourVision.description")}
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {visions.map((vision, index) => (
+            <div
+              key={vision.title}
+              className="group bg-card rounded-xl border p-6 transition-all duration-300 hover:shadow-lg"
+            >
+              <div className="mb-4">
+                <h3 className="text-xl font-semibold mb-2">{vision.title}</h3>
+                <p className="text-muted-foreground">{vision.description}</p>
+              </div>
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <Image
+                  src={vision.image}
+                  alt={vision.title}
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  priority={index < 2}
+                />
+              </div>
             </div>
-            <Image
-              src={vision.image}
-              alt={vision.title}
-              width={100}
-              height={100}
-              className="object-cover w-full h-full"
-              priority
-              loading="eager"
-            />
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </Section>
   );

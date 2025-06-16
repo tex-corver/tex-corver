@@ -50,7 +50,7 @@ export default function LangSwitch({
         <Button
           className={cn(
             "outline-none focus-visible:ring-0 focus-visible:ring-offset-0",
-            className
+            className,
           )}
           {...props}
           variant="ghost"
@@ -76,7 +76,7 @@ export default function LangSwitch({
                 },
                 {
                   locale: item.value,
-                }
+                },
               )
             }
           >

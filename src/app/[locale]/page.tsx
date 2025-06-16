@@ -9,12 +9,20 @@ import { Fragment } from "react";
 export default function Home() {
   return (
     <Fragment>
-      <Hero />
-      <OurVision />
-      <HighlightedProducts />
-      <OurClients />
-      <BoardOfDirectors />
-      <TeamMembers />
+      <div className="relative">
+        {/* Background gradient */}
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/80 to-background/40 -z-10" />
+
+        {/* Main content */}
+        <div className="relative z-10">
+          <Hero />
+          <OurVision />
+          <HighlightedProducts />
+          <OurClients />
+          <BoardOfDirectors />
+          <TeamMembers />
+        </div>
+      </div>
     </Fragment>
   );
 }

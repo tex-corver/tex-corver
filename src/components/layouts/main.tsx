@@ -42,11 +42,7 @@ export default async function MainLayout({ children }: MainLayoutProps) {
           locale={locale}
           appName={appName}
         />
-        <Header
-          items={navItems}
-          themes={themes}
-          langs={langs}
-        />
+        <Header items={navItems} themes={themes} langs={langs} />
         {children}
         <Footer />
       </main>

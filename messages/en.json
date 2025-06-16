@@ -55,6 +55,10 @@
     "copyright": "Copyright © 2025 <span>{appName}</span>. All rights reserved.",
     "contact": {
       "email": "Email: {email}"
-    }
+    },
+    "quickLinks": "Quick Links",
+    "contactTitle": "Contact",
+    "aboutTitle": "About Us",
+    "aboutDesc": "We are a creative software development team, always aiming for optimal solutions for our clients."
   }
 }

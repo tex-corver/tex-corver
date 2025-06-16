@@ -55,6 +55,10 @@
     "copyright": "Bản quyền © 2025 <span>{appName}</span>. Tất cả quyền được bảo lưu.",
     "contact": {
       "email": "Email: {email}"
-    }
+    },
+    "quickLinks": "Liên kết nhanh",
+    "contactTitle": "Liên hệ",
+    "aboutTitle": "Về chúng tôi",
+    "aboutDesc": "Chúng tôi là đội ngũ phát triển phần mềm sáng tạo, luôn hướng tới giải pháp tối ưu cho khách hàng."
   }
 }

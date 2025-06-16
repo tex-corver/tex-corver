@@ -24,7 +24,7 @@ const Section: ForwardRefExoticComponent<
         {children}
       </section>
     );
-  }
+  },
 );
 
 Section.displayName = "Section";

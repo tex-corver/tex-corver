@@ -66,7 +66,7 @@ const ThemeSwitch: ForwardRefExoticComponent<
             {...props}
             className={cn(
               className,
-              "outline-none focus-visible:ring-0 focus-visible:ring-offset-0"
+              "outline-none focus-visible:ring-0 focus-visible:ring-offset-0",
             )}
             variant="ghost"
             size="icon"
@@ -81,7 +81,7 @@ const ThemeSwitch: ForwardRefExoticComponent<
               key={item.value}
               onClick={() => setTheme(item.value)}
               className={cn(
-                theme === item.value && "bg-accent text-accent-foreground"
+                theme === item.value && "bg-accent text-accent-foreground",
               )}
             >
               {item.icon}
@@ -91,7 +91,7 @@ const ThemeSwitch: ForwardRefExoticComponent<
         </DropdownMenuContent>
       </DropdownMenu>
     );
-  }
+  },
 );
 
 ThemeSwitch.displayName = "ThemeSwitch";

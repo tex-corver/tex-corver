@@ -39,8 +39,8 @@ export default function Header({
   return (
     <header
       className={cn(
-        "sticky top-0 z-1 h-16 bg-background/90 backdrop-blur-sm px-2",
-        className
+        "sticky top-0 z-50 h-16 bg-background/90 backdrop-blur-sm px-2",
+        className,
       )}
       {...props}
     >
@@ -56,7 +56,7 @@ export default function Header({
                   <Link
                     href={item.href}
                     className={cn(
-                      "text-sm font-medium hover:text-primary transition-colors duration-300 px-2 py-1 mx-2"
+                      "text-sm font-medium hover:text-primary transition-colors duration-300 px-2 py-1 mx-2",
                     )}
                   >
                     {item.label}
