@@ -28,21 +28,21 @@ export default function OurVision() {
   ];
   return (
     <Section id="our-vision">
-      <div className="flex flex-col items-center justify-center gap-4 text-center md:text-left">
-        <h1 className="text-4xl font-bold">{t("ourVision.title")}</h1>
-        <p className="max-w-2xl px-4 text-lg text-center text-muted-foreground">
+      <div className="flex flex-col justify-center items-center gap-4 md:text-left text-center">
+        <h1 className="font-bold text-2xl md:text-4xl">{t("ourVision.title")}</h1>
+        <p className="px-4 max-w-2xl text-muted-foreground text-base md:text-lg text-center">
           {t("ourVision.description")}
         </p>
       </div>
-      <div className="grid grid-cols-1 gap-4 mt-12 md:grid-cols-2 lg:grid-cols-4 md:text-left">
+      <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-8 md:mt-12 md:text-left">
         {visions.map((vision) => (
           <div
             key={vision.title}
-            className="flex flex-col gap-2 text-center border rounded-md shadow-md md:text-left"
+            className="flex flex-col gap-4 shadow-md border rounded-md md:text-left text-center"
           >
-            <div className="flex flex-col gap-2 p-4">
-              <h2 className="text-lg font-bold">{vision.title}</h2>
-              <p className="text-base text-muted-foreground">
+            <div className="flex flex-col gap-2 px-4 pt-4">
+              <h2 className="font-bold text-base md:text-lg">{vision.title}</h2>
+              <p className="text-muted-foreground text-sm md:text-base">
                 {vision.description}
               </p>
             </div>
@@ -51,7 +51,7 @@ export default function OurVision() {
               alt={vision.title}
               width={100}
               height={100}
-              className="object-cover w-full h-full"
+              className="w-full h-48 md:h-64 object-cover"
               priority
               loading="eager"
             />

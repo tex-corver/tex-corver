@@ -52,24 +52,24 @@ export default function OurClients() {
   return (
     <Section id="our-clients">
       <div className="flex flex-col justify-center items-center gap-4 md:text-left text-center">
-        <h1 className="font-bold text-4xl">{t("ourClients.title")}</h1>
-        <p className="px-4 max-w-2xl text-muted-foreground text-lg text-center">
+        <h1 className="font-bold text-2xl md:text-4xl">{t("ourClients.title")}</h1>
+        <p className="px-4 max-w-2xl text-muted-foreground text-base md:text-lg text-center">
           {t("ourClients.description")}
         </p>
       </div>
-      <div className="relative mt-12 w-full overflow-hidden">
+      <div className="relative mt-8 md:mt-12 w-full overflow-hidden">
         {/* Marquee */}
         <Marquee className="w-full max-w-[calc(100vw-5rem)]" speed={100}>
           {clients.map((client, idx) => (
-            <div key={idx} className="flex items-center gap-2 p-4">
+            <div key={idx} className="flex items-center gap-2 p-2">
               <Image
                 src={client.logo}
                 alt={client.name}
                 width={100}
                 height={100}
-                className="w-16 h-16 object-cover"
+                className="w-12 md:w-16 h-12 md:h-16 object-cover"
               />
-              {client.name}
+              <p className="text-sm md:text-base">{client.name}</p>
             </div>
           ))}
         </Marquee>

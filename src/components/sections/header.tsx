@@ -4,7 +4,6 @@ import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { ComponentProps } from "react";
-import Container from "../layouts/container";
 import ThemeSwitch, { ThemeSwitchItem } from "../theme-switch";
 import {
   NavigationMenu,
@@ -39,24 +38,24 @@ export default function Header({
   return (
     <header
       className={cn(
-        "sticky top-0 z-1 h-16 bg-background/90 backdrop-blur-sm px-2",
+        "sticky top-0 z-50 h-16 bg-background/80 backdrop-blur-sm px-2",
         className
       )}
       {...props}
     >
-      <Container className="flex items-center justify-between h-full">
-        <div className="items-center hidden gap-2 md:flex">
+      <div className="flex justify-between items-center h-full">
+        <div className="hidden md:flex items-center">
           <Link href="/">
             <Image src="/logo.png" alt="Logo" width={48} height={48} />
           </Link>
-          <NavigationMenu className="hidden md:block">
+          <NavigationMenu className="hidden md:block mx-1">
             <NavigationMenuList>
               {items?.map((item, idx) => (
-                <NavigationMenuItem key={idx}>
+                <NavigationMenuItem key={idx} className="mx-none px-none">
                   <Link
                     href={item.href}
                     className={cn(
-                      "text-sm font-medium hover:text-primary transition-colors duration-300 px-2 py-1 mx-2"
+                      "text-sm font-medium hover:text-primary transition-colors duration-300 px-1 py-1 mx-2"
                     )}
                   >
                     {item.label}
@@ -69,16 +68,16 @@ export default function Header({
         <Button
           variant="ghost"
           size="icon"
-          className="flex outline-none focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
+          className="md:hidden flex outline-none focus-visible:ring-0 focus-visible:ring-offset-0"
           onClick={() => toggleSidebar()}
         >
           <MenuIcon />
         </Button>
-        <div className="items-center hidden gap-2 md:flex">
+        <div className="hidden md:flex items-center gap-2">
           <ThemeSwitch items={themes} />
           <LangSwitch items={langs} />
         </div>
-      </Container>
+      </div>
     </header>
   );
 }

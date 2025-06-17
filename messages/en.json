@@ -54,7 +54,11 @@
     "description": "We are a team of developers who are passionate about creating beautiful and functional websites.",
     "copyright": "Copyright © 2025 <span>{appName}</span>. All rights reserved.",
     "contact": {
-      "email": "Email: {email}"
-    }
+      "email": "Email: {email}",
+      "phone": "Phone: {phone}",
+      "address": "Address: {address}"
+    },
+    "title": "Contact Us",
+    "quickLinks": "Quick Links"
   }
 }

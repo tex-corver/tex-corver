@@ -54,7 +54,11 @@
     "description": "Chúng tôi là một đội ngũ nhà phát triển có đam mê với việc tạo ra các trang web đẹp và hàm năng.",
     "copyright": "Bản quyền © 2025 <span>{appName}</span>. Tất cả quyền được bảo lưu.",
     "contact": {
-      "email": "Email: {email}"
-    }
+      "email": "Email: {email}",
+      "phone": "Điện thoại: {phone}",
+      "address": "Địa chỉ: {address}"
+    },
+    "title": "Liên hệ chúng tôi",
+    "quickLinks": "Liên kết nhanh"
   }
 }
