@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tex Corver Organization
 
-## Getting Started
+Welcome to **Tex Corver** - a dynamic organization committed to excellence, innovation, and delivering exceptional solutions to our clients worldwide.
 
-First, run the development server:
+## 🌟 About Us
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Tex Corver is a forward-thinking organization that brings together passionate professionals dedicated to creating beautiful and functional solutions. We believe in the power of collaboration, innovation, and continuous improvement to drive success for our organization and our valued clients.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Our Vision
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+We envision a future where technology and creativity converge to solve complex challenges and create meaningful impact. Our team of dedicated professionals works tirelessly to turn this vision into reality through innovative approaches and strategic thinking.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏢 Organization Structure
 
-## Learn More
+### Board of Directors
 
-To learn more about Next.js, take a look at the following resources:
+Our experienced board of directors provides strategic guidance and governance to ensure the organization's continued growth and success.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Team Members
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Our diverse team of professionals brings together expertise from various fields, creating a collaborative environment that fosters innovation and excellence.
 
-## Deploy on Vercel
+## 🤝 Our Clients
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We are proud to serve a diverse portfolio of clients, ranging from startups to established enterprises. Our commitment to understanding their unique needs and delivering tailored solutions has earned us their trust and long-term partnerships.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 What We Offer
+
+- **Strategic Solutions**: Comprehensive approaches to complex business challenges
+- **Innovation Focus**: Cutting-edge methodologies and technologies
+- **Client-Centric Approach**: Tailored solutions that meet specific client needs
+- **Global Reach**: International capabilities with local expertise
+- **Continuous Improvement**: Commitment to learning and evolving
+
+## 🌐 International Presence
+
+Our organization operates with a global mindset, supporting multiple languages and regions to serve our international clientele effectively.
+
+## 📞 Get In Touch
+
+We welcome opportunities to discuss how Tex Corver can contribute to your success. Reach out to us to learn more about our capabilities and how we can work together.
+
+---
+
+*Building the future, one innovative solution at a time.*
+
+## 🛠️ Technical Information
+
+This organization website is built with modern web technologies:
+
+- **Framework**: Next.js 15 with TypeScript
+- **Styling**: Tailwind CSS with modern UI components
+- **Internationalization**: Multi-language support (English/Vietnamese)
+- **Features**: Responsive design, dark/light theme, modern animations
