@@ -1,5 +1,5 @@
 {
-  "appName": "Tex Corver",
+  "appName": "Thoth Digital",
   "home": {
     "title": "{appName} - Home",
     "description": "Home page for {appName}"
@@ -26,13 +26,37 @@
     "vn": "Vietnamese"
   },
   "hero": {
-    "title": "Welcome to <span>{appName}</span>",
-    "description": "We are a team of developers who are passionate about creating beautiful and functional websites.",
-    "button": "Get Started"
+    "title": "<span>{appName}</span>",
+    "sologan": "AI-Driven. Blockchain-Powered. Pioneering Digital Solutions.",
+    "description": "We are a dynamic team of innovators, technologists, and industry leaders dedicated to shaping the future of digital business. Our core team brings together deep expertise in artificial intelligence, blockchain technology, fintech, and competitive programming, ensuring we deliver cutting-edge solutions for our clients.",
+    "button": "Get Started",
+    "expertiseCards": [
+      {
+        "title": "AI Expertise",
+        "description": "Our team includes an AI expert with hands-on experience in e-commerce, leveraging advanced machine learning to drive business growth and efficiency. Fintech & E-Wallet Leadership: Our team director has a proven track record in the fintech sector, having successfully built and launched several e-wallet systems. Collectively, these systems manage over $100 million in assets under management (AUM) and serve more than 8 million active users. In addition, our e-wallet solutions have been successfully sold to five clients, generating over $2 million in revenue."
+      },
+      {
+        "title": "Blockchain Innovation",
+        "description": "Our technical director has experience in successful blockchain startups, bringing a wealth of knowledge in decentralized technologies and secure digital transactions."
+      },
+      {
+        "title": "Award-Winning Talent",
+        "description": "Our team members are recognized for their excellence in competitive programming, with national and regional ICPC awards that reflect our commitment to technical excellence and problem-solving."
+      },
+      {
+        "title": "Quantitative Finance Leadership",
+        "description": "One of our advisors is a vice president at a global quantitative fund, with over 10 years of experience in financial markets and data-driven strategies."
+      },
+      {
+        "title": "Finance & Legal Expertise",
+        "description": "Another advisor is a regional manager at a leading China-based e-payment company, with two decades of experience in cross-border e-commerce, finance, and legal compliance."
+      }
+    ],
+    "endAboutUs": "We are proudly backed by a leading Singapore investment fund, which supports our vision and growth as we deliver innovative digital solutions to clients worldwide. \n Together, we combine technical prowess, industry insight, and strategic vision to help businesses thrive in the digital age."
   },
   "ourVision": {
     "title": "Our Vision",
-    "description": "We are a team of developers who are passionate about creating beautiful and functional websites."
+    "description": "Our vision is to empower businesses to thrive in the digital era by leading the way in digital transformation. We harness the power of artificial intelligence, advanced data platforms, and cutting-edge blockchain technology to deliver innovative solutions tailored to our clients’ needs. \n \n  While we have deep expertise in supporting clients in the finance and e-commerce sectors, our solutions are designed to drive success across a wide range of industries. By leveraging our multidisciplinary knowledge, we help organizations unlock new levels of efficiency, security, and growth-enabling them to stay ahead in an ever-evolving digital landscape."
   },
   "ourProducts": {
     "title": "Our Products",
