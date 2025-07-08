@@ -36,7 +36,7 @@ export default function Hero() {
 
   return (
     <>
-      <Section id="hero" containerClassName="bg-gray-300 dark:bg-gray-900">
+      <Section id="hero" containerClassName="bg-blue-500/50! dark:bg-blue-700/50! bg-gradient-to-l from-background/0 via-background/50 to-background">
         <div className="max-w-2xl flex flex-col text-left md:gap-3">
           <h1 className="font-bold text-2xl md:text-4xl leading-tight">
             {t.rich("hero.title", {

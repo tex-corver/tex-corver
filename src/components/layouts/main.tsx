@@ -20,6 +20,7 @@ export default async function MainLayout({ children }: MainLayoutProps) {
     { href: "/#our-products", label: t("common.ourProducts") },
     { href: "/#our-clients", label: t("common.ourClients") },
     { href: "/#board-of-directors", label: t("common.boardOfDirectors") },
+    { href: "/#advisors", label: t("common.advisors") },
     { href: "/#team-members", label: t("common.teamMembers") },
   ];
   const themes: ThemeSwitchItem[] = [

@@ -30,7 +30,7 @@ export default function Footer() {
               <MailIcon className="w-4 h-4 text-primary" />
               <p className="text-muted-foreground text-sm md:text-base">
                 {t("footer.contact.email", {
-                  email: "test@test.com",
+                  email: "admin@thothdigital.com",
                 })}
               </p>
             </div>
@@ -38,7 +38,7 @@ export default function Footer() {
               <PhoneIcon className="w-4 h-4 text-primary" />
               <p className="text-muted-foreground text-sm md:text-base">
                 {t("footer.contact.phone", {
-                  phone: "123-456-7890",
+                  phone: "+84 979100081",
                 })}
               </p>
             </div>

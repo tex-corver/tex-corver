@@ -57,12 +57,9 @@ export default function TeamMembers() {
   ];
   return (
     <Section id="team-members">
-      <div className="flex flex-col justify-center items-center gap-4 md:text-left text-center">
-        <h1 className="font-bold text-2xl md:text-4xl">{t("teamMembers.title")}</h1>
-        <p className="px-4 max-w-2xl text-muted-foreground text-base md:text-lg text-center">
-          {t("teamMembers.description")}
-        </p>
-      </div>
+      <h1 className="font-bold text-2xl md:text-4xl leading-tight">
+        {t("teamMembers.title")}
+      </h1>
       <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-8 md:mt-12 px-8 md:text-left">
         {members.map((member) => (
           <div

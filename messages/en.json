@@ -14,6 +14,7 @@
     "ourProducts": "Products",
     "ourClients": "Clients",
     "boardOfDirectors": "Board of Directors",
+    "advisors": "Advisors",
     "teamMembers": "Team"
   },
   "theme": {
@@ -60,18 +61,166 @@
   },
   "ourProducts": {
     "title": "Our Products",
-    "description": "We are a team of developers who are passionate about creating beautiful and functional websites."
+    "description": "Innovative, AI-driven solutions designed to help businesses accelerate growth, boost efficiency, and drive digital transformation.",
+    "products": [
+      {
+        "title": "Hoa Em – E-commerce & Subscription Platform",
+        "description": "A flexible e-commerce solution tailored for both retail and subscription-based businesses, empowering sellers to streamline operations and maximize revenue.",
+        "keyFeatures": [
+          {
+            "feature": "Order Management",
+            "description": "Handle both recurring and one-time purchases with ease.",
+            "src": "/placeholder.svg"
+          }, {
+            "feature": "Customer Management",
+            "description": "Advanced segmentation and profiling to boost customer loyalty.",
+            "src": "/placeholder.svg"
+          }, {
+            "feature": "Product Management",
+            "description": "Efficiently manage product lines and SKUs.",
+            "src": "/placeholder.svg"
+          }, {
+            "feature": "Business Reports",
+            "description": "Real-time revenue tracking and financial insights for smarter decisions.",
+            "src": "/placeholder.svg"
+          }
+        ]
+      },
+      {
+        "title": "Teacher PA – AI Assistant for Education",
+        "description": "An intelligent assistant designed to enhance teaching and learning experiences through AI-driven interaction and automation.",
+        "keyFeatures": [
+          {
+            "feature": "Conversation Management",
+            "description": "Seamlessly manage educational interactions.",
+            "src": "/placeholder.svg"
+          }, {
+            "feature": "Multi-tenancy",
+            "description": "Support multiple schools, classes, and user groups.",
+            "src": "/placeholder.svg"
+          }, {
+            "feature": "LLM & RAG Integration",
+            "description": "Deliver precise, contextualized AI assistance for teachers and students.",
+            "src": "/placeholder.svg"
+          }
+        ]
+      },
+      {
+        "title": "Simple Node – Data & AI-Powered ETL Platform",
+        "description": "A data-processing platform structured around graph-based organization.",
+        "keyFeatures": [
+          {
+            "feature": "Node-centric Data Graph Management",
+            "description": "Efficiently manage data relationships.",
+            "src": "/placeholder.svg"
+          }, {
+            "feature": "Dataset Management",
+            "description": "Organize and manage data efficiently.",
+            "src": "/placeholder.svg"
+          }, {
+            "feature": "Multi-source Data Ingestion",
+            "description": "Ingest data from various sources.",
+            "src": "/placeholder.svg"
+          }, {
+            "feature": "Auto-scaling based on compute load",
+            "description": "Scale resources based on demand.",
+            "src": "/placeholder.svg"
+          }, {
+            "feature": "Integrated AI tools",
+            "description": "OCR, NLP pipelines, LLM-based query assistant.",
+            "src": "/placeholder.svg"
+          }
+        ]
+      },
+      {
+        "title": "Simple CRM – Customer Engagement Platform",
+        "description": "An AI-powered CRM designed to help businesses build lasting customer relationships through intelligent engagement and automation.",
+        "keyFeatures": [
+          {
+            "feature": "Customer Profiling & Segmentation",
+            "description": "Target the right audience with precision.",
+            "src": "/placeholder.svg"
+          }, {
+            "feature": "Campaign Management",
+            "description": "Run automated email and push notification campaigns.",
+            "src": "/placeholder.svg"
+          }, {
+            "feature": "AI Chatbot",
+            "description": "Engage customers 24/7 with real-time AI-powered assistance.",
+            "src": "/placeholder.svg"
+          }
+        ]
+      },
+      {
+        "title": "Simple Accounting – E-commerce Financial Reporting System",
+        "description": "A streamlined financial reporting system for e-commerce businesses, simplifying compliance and financial management.",
+        "keyFeatures": [
+          {
+            "feature": "Multi-Platform Support",
+            "description": "Consolidate sales data from Amazon, Wix, and more.",
+            "src": "/placeholder.svg"
+          }, {
+            "feature": "Customizable Reports",
+            "description": "Stay compliant with evolving financial regulations.",
+            "src": "/placeholder.svg"
+          }, {
+            "feature": "Secure Financial Storage",
+            "description": "Safeguard sensitive data while ensuring easy retrieval.",
+            "src": "/placeholder.svg"
+          }
+        ]
+      }
+    ]
   },
   "ourClients": {
     "title": "Our Clients",
-    "description": "We are a team of developers who are passionate about creating beautiful and functional websites."
+    "clients": [
+      {
+        "name": "SLiner International",
+        "description": "A full-service consulting firm bridging global companies and Southeast Asia markets, especially Vietnam. Thoth Digital supported SLiner by developing tailored AI‑powered e‑commerce insights, helping their clients navigate new tax regimes and optimize cross-border strategies.",
+        "logo": "/placeholder.svg"
+      },
+      {
+        "name": "GenestIT",
+        "description": "An Australian IT services provider focused on intelligent automation and DevOps. We partnered with GenestIT to integrate AI‑driven automation workflows and performance-optimized DevOps pipelines, boosting their clients’ platform reliability and efficiency.",
+        "logo": "/placeholder.svg"
+      }
+    ]
   },
   "boardOfDirectors": {
-    "title": "Board of Directors",
-    "description": "We are a team of developers who are passionate about creating beautiful and functional websites."
+    "title": "Meet Our Board of Directors",
+    "directors": [
+      {
+        "position": "Chairman & CTO",
+        "name": "Thu Tran",
+        "description": "Over 12 years of experience in AI, software engineering, and data science.",
+        "image": "/placeholder.svg"
+      },
+      {
+        "position": "CEO",
+        "name": "Linh Dieu Nguyen",
+        "description": "A strategic leader with 5 years of experience driving growth across multiple industries.",
+        "image": "/placeholder.svg"
+      }
+    ]
+  },
+  "advisors": {
+    "title": "Meet Our Advisors",
+    "advisors": [
+      {
+        "name": "Albert Phan",
+        "description": "We are a team of developers who are passionate about creating beautiful and functional websites.",
+        "image": "/placeholder.svg"
+      },
+      {
+        "name": "Tai",
+        "description": "We are a team of developers who are passionate about creating beautiful and functional websites.",
+        "image": "/placeholder.svg"
+      }
+    ]
   },
   "teamMembers": {
-    "title": "Team Members",
+    "title": "Our Members",
     "description": "We are a team of developers who are passionate about creating beautiful and functional websites."
   },
   "footer": {
