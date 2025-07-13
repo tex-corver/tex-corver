@@ -6,6 +6,7 @@ import Footer from "../sections/footer";
 import Header from "../sections/header";
 import { ThemeSwitchItem } from "../theme-switch";
 import { SidebarProvider } from "../ui/sidebar";
+import Favicon from "../ui/favicon";
 
 interface MainLayoutProps {
   children: React.ReactNode;
@@ -35,6 +36,7 @@ export default async function MainLayout({ children }: MainLayoutProps) {
   const appName = t("appName");
   return (
     <SidebarProvider>
+      <Favicon />
       <main className="flex flex-col flex-1 min-h-screen">
         <AppSidebar
           items={navItems}

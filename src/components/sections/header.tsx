@@ -2,9 +2,9 @@
 
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
 import { ComponentProps } from "react";
 import ThemeSwitch, { ThemeSwitchItem } from "../theme-switch";
+import Logo from "../ui/logo";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -46,7 +46,7 @@ export default function Header({
       <div className="flex justify-between items-center h-full">
         <div className="hidden md:flex items-center">
           <Link href="/">
-            <Image src="/logo.png" alt="Logo" width={48} height={48} />
+            <Logo width={48} height={48} />
           </Link>
           <NavigationMenu className="hidden md:block mx-1">
             <NavigationMenuList>

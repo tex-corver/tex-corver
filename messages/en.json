@@ -34,7 +34,11 @@
     "expertiseCards": [
       {
         "title": "AI Expertise",
-        "description": "Our team includes an AI expert with hands-on experience in e-commerce, leveraging advanced machine learning to drive business growth and efficiency. Fintech & E-Wallet Leadership: Our team director has a proven track record in the fintech sector, having successfully built and launched several e-wallet systems. Collectively, these systems manage over $100 million in assets under management (AUM) and serve more than 8 million active users. In addition, our e-wallet solutions have been successfully sold to five clients, generating over $2 million in revenue."
+        "description": "Our team includes an AI expert with hands-on experience in e-commerce, leveraging advanced machine learning to drive business growth and efficiency."
+      },
+      {
+        "title": "Fintech & E-Wallet Leadership",
+        "description": "Our team director has a proven track record in the fintech sector, having successfully built and launched several e-wallet systems. Collectively, these systems manage over $100 million in assets under management (AUM) and serve more than 8 million active users. In addition, our e-wallet solutions have been successfully sold to five clients, generating over $2 million in revenue."
       },
       {
         "title": "Blockchain Innovation",
@@ -71,15 +75,18 @@
             "feature": "Order Management",
             "description": "Handle both recurring and one-time purchases with ease.",
             "src": "/placeholder.svg"
-          }, {
+          },
+          {
             "feature": "Customer Management",
             "description": "Advanced segmentation and profiling to boost customer loyalty.",
             "src": "/placeholder.svg"
-          }, {
+          },
+          {
             "feature": "Product Management",
             "description": "Efficiently manage product lines and SKUs.",
             "src": "/placeholder.svg"
-          }, {
+          },
+          {
             "feature": "Business Reports",
             "description": "Real-time revenue tracking and financial insights for smarter decisions.",
             "src": "/placeholder.svg"
@@ -94,11 +101,13 @@
             "feature": "Conversation Management",
             "description": "Seamlessly manage educational interactions.",
             "src": "/placeholder.svg"
-          }, {
+          },
+          {
             "feature": "Multi-tenancy",
             "description": "Support multiple schools, classes, and user groups.",
             "src": "/placeholder.svg"
-          }, {
+          },
+          {
             "feature": "LLM & RAG Integration",
             "description": "Deliver precise, contextualized AI assistance for teachers and students.",
             "src": "/placeholder.svg"
@@ -113,19 +122,23 @@
             "feature": "Node-centric Data Graph Management",
             "description": "Efficiently manage data relationships.",
             "src": "/placeholder.svg"
-          }, {
+          },
+          {
             "feature": "Dataset Management",
             "description": "Organize and manage data efficiently.",
             "src": "/placeholder.svg"
-          }, {
+          },
+          {
             "feature": "Multi-source Data Ingestion",
             "description": "Ingest data from various sources.",
             "src": "/placeholder.svg"
-          }, {
+          },
+          {
             "feature": "Auto-scaling based on compute load",
             "description": "Scale resources based on demand.",
             "src": "/placeholder.svg"
-          }, {
+          },
+          {
             "feature": "Integrated AI tools",
             "description": "OCR, NLP pipelines, LLM-based query assistant.",
             "src": "/placeholder.svg"
@@ -140,11 +153,13 @@
             "feature": "Customer Profiling & Segmentation",
             "description": "Target the right audience with precision.",
             "src": "/placeholder.svg"
-          }, {
+          },
+          {
             "feature": "Campaign Management",
             "description": "Run automated email and push notification campaigns.",
             "src": "/placeholder.svg"
-          }, {
+          },
+          {
             "feature": "AI Chatbot",
             "description": "Engage customers 24/7 with real-time AI-powered assistance.",
             "src": "/placeholder.svg"
@@ -159,11 +174,13 @@
             "feature": "Multi-Platform Support",
             "description": "Consolidate sales data from Amazon, Wix, and more.",
             "src": "/placeholder.svg"
-          }, {
+          },
+          {
             "feature": "Customizable Reports",
             "description": "Stay compliant with evolving financial regulations.",
             "src": "/placeholder.svg"
-          }, {
+          },
+          {
             "feature": "Secure Financial Storage",
             "description": "Safeguard sensitive data while ensuring easy retrieval.",
             "src": "/placeholder.svg"
