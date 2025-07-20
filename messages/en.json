@@ -237,7 +237,7 @@
         "position": "CEO",
         "name": "Linh Dieu Nguyen",
         "description": "A strategic leader with 5 years of experience driving growth across multiple industries.",
-        "image": "/team-members/Linh.jpg"
+        "image": "/team-members/Linh.png"
       }
     ]
   },
@@ -271,7 +271,7 @@
       },
       {
         "name": "Luong Van Tu",
-        "image": "/team-members/Tus.jpeg",
+        "image": "/team-members/Tus.jpg",
         "awards": [
           "Finalist - Build On Contest (AWS)",
           "Head of Design & Development Web (HAMIC)"
@@ -290,7 +290,7 @@
       },
       {
         "name": "Vu Kim Ngan",
-        "image": "/team-members/Ngan.jpeg",
+        "image": "/team-members/Ngan.jpg",
         "awards": []
       },
       {
