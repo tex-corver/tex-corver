@@ -2,7 +2,6 @@ import { useTranslations } from "next-intl";
 import Section from "../layouts/section";
 import Logo from "../ui/logo";
 import { MailIcon, MapPin, PhoneIcon } from "lucide-react";
-import { Link } from "@/i18n/navigation";
 
 export default function Footer() {
   const t = useTranslations();
@@ -24,11 +23,13 @@ export default function Footer() {
             <p className="text-muted-foreground text-sm md:text-base">
               {t("footer.description")}
             </p>
+          </div>
+          <div className="flex flex-col gap-2">
             <div className="flex flex-row items-center gap-2">
               <MailIcon className="w-4 h-4 text-primary" />
               <p className="text-muted-foreground text-sm md:text-base">
                 {t("footer.contact.email", {
-                  email: "admin@thothdigital.com",
+                  email: "info@urieljsc.com",
                 })}
               </p>
             </div>
@@ -48,9 +49,7 @@ export default function Footer() {
                 })}
               </p>
             </div>
-          </div>
-          <div className="flex flex-col gap-2">
-            <h4 className="mb-3 font-semibold text-sm md:text-base">
+            {/* <h4 className="mb-3 font-semibold text-sm md:text-base">
               {t("footer.quickLinks")}
             </h4>
             <div className="gap-2 grid grid-cols-1 md:grid-cols-2 text-muted-foreground">
@@ -89,8 +88,8 @@ export default function Footer() {
                 className="hover:text-primary text-sm md:text-base hover:underline transition-colors"
               >
                 {t("common.teamMembers")}
-              </Link>
-            </div>
+              </Link> 
+            </div> */}
           </div>
         </div>
         <div className="flex flex-col gap-2 mt-4 md:mt-8 w-full text-center">

@@ -2,7 +2,7 @@
 
 import { Link, useRouter } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
-import LangSwitch, { LangSwitchItem } from "./lang-switch";
+import { LangSwitchItem } from "./lang-switch";
 import ThemeSwitch, { ThemeSwitchItem } from "./theme-switch";
 import Logo from "./ui/logo";
 import {
@@ -58,10 +58,8 @@ export interface AppSidebarProps {
 
 export default function AppSidebar({
   appName,
-  locale,
   items = APP_SIDEBAR_ITEMS,
   themes,
-  langs,
 }: AppSidebarProps) {
   const router = useRouter();
   const { toggleSidebar } = useSidebar();
@@ -92,7 +90,7 @@ export default function AppSidebar({
       <SidebarFooter>
         <div className="flex flex-row gap-8">
           <ThemeSwitch items={themes} />
-          <LangSwitch items={langs} locale={locale} />
+          {/* <LangSwitch items={langs} locale={locale} /> */}
         </div>
       </SidebarFooter>
     </Sidebar>

@@ -1,5 +1,5 @@
 {
-  "appName": "Thoth Digital",
+  "appName": "Uriel JSC",
   "home": {
     "title": "{appName} - Home",
     "description": "Home page for {appName}"
@@ -68,8 +68,12 @@
     "description": "Innovative, AI-driven solutions designed to help businesses accelerate growth, boost efficiency, and drive digital transformation.",
     "products": [
       {
-        "title": "Hoa Em – E-commerce & Subscription Platform",
-        "description": "A flexible e-commerce solution tailored for both retail and subscription-based businesses, empowering sellers to streamline operations and maximize revenue.",
+        "title": "Uriel Shop – E-commerce & Subscription Platform",
+        "description": "A flexible e-commerce platform built to support both one-time and subscription-based sales, enabling businesses to scale recurring revenue streams while maintaining operational agility. Designed for adaptability and insight-driven decision making, it empowers merchants to respond to changing customer behavior and market demands with confidence.",
+        "image": {
+          "light": "/highlighted-products/uriel-shop-white.png",
+          "dark": "/highlighted-products/uriel-shop-black.png"
+        },
         "keyFeatures": [
           {
             "feature": "Order Management",
@@ -95,7 +99,11 @@
       },
       {
         "title": "Teacher PA – AI Assistant for Education",
-        "description": "An intelligent assistant designed to enhance teaching and learning experiences through AI-driven interaction and automation.",
+        "description": "A chat-based AI assistant purpose-built for schools, designed to enhance personalized experience and empower with contextual academic support. Tailored for both teachers and learners, it delivers focused interactions that enhance productivity, autonomy, and engagement.",
+        "image": {
+          "light": "/highlighted-products/teacher-pa-white.png",
+          "dark": "/highlighted-products/teacher-pa-black.png"
+        },
         "keyFeatures": [
           {
             "feature": "Conversation Management",
@@ -115,8 +123,12 @@
         ]
       },
       {
-        "title": "Simple Node – Data & AI-Powered ETL Platform",
-        "description": "A data-processing platform structured around graph-based organization.",
+        "title": "Uriel Node - Data & AI-Powered ETL Platform",
+        "description": "Designed around a graph-based architecture, this ETL platform enables high-performance data workflows across distributed sources. Intelligent automation and built-in AI capabilities help teams reduce manual processing, streamline ingestion, and query data with greater clarity and control.",
+        "image": {
+          "light": "/highlighted-products/uriel-node-white.png",
+          "dark": "/highlighted-products/uriel-node-black.png"
+        },
         "keyFeatures": [
           {
             "feature": "Node-centric Data Graph Management",
@@ -146,8 +158,12 @@
         ]
       },
       {
-        "title": "Simple CRM – Customer Engagement Platform",
-        "description": "An AI-powered CRM designed to help businesses build lasting customer relationships through intelligent engagement and automation.",
+        "title": "Uriel CRM – Customer Engagement Platform",
+        "description": "Built to elevate how businesses connect with their customers, this platform blends automation and AI to support meaningful, timely engagement at every stage of the customer journey. From first touch to long-term retention, it enables teams to personalize outreach and scale communication with confidence.",
+        "image": {
+          "light": "/highlighted-products/uriel-crm-white.png",
+          "dark": "/highlighted-products/uriel-crm-black.png"
+        },
         "keyFeatures": [
           {
             "feature": "Customer Profiling & Segmentation",
@@ -167,8 +183,12 @@
         ]
       },
       {
-        "title": "Simple Accounting – E-commerce Financial Reporting System",
-        "description": "A streamlined financial reporting system for e-commerce businesses, simplifying compliance and financial management.",
+        "title": "Uriel Accounting – E-commerce Financial Reporting System",
+        "description": "Financial data becomes actionable when it's unified, accessible, and tailored to your operations. This platform brings together imported and connected data sources to generate audit-ready financial reports, enabling e-commerce businesses to stay compliant, informed, and in control.",
+        "image": {
+          "light": "/highlighted-products/uriel-accounting-white.png",
+          "dark": "/highlighted-products/uriel-accounting-black.png"
+        },
         "keyFeatures": [
           {
             "feature": "Multi-Platform Support",
@@ -211,13 +231,13 @@
         "position": "Chairman & CTO",
         "name": "Thu Tran",
         "description": "Over 12 years of experience in AI, software engineering, and data science.",
-        "image": "/placeholder.svg"
+        "image": "/team-members/thu-tran.jpeg"
       },
       {
         "position": "CEO",
         "name": "Linh Dieu Nguyen",
         "description": "A strategic leader with 5 years of experience driving growth across multiple industries.",
-        "image": "/placeholder.svg"
+        "image": "/team-members/Linh.jpg"
       }
     ]
   },
@@ -226,19 +246,63 @@
     "advisors": [
       {
         "name": "Albert Phan",
-        "description": "We are a team of developers who are passionate about creating beautiful and functional websites.",
-        "image": "/placeholder.svg"
+        "description": "Over 10 years experience in strategic analyzing, management, financial knowledge and technology.",
+        "image": "/team-members/Albert_Phan.jpeg"
       },
       {
         "name": "Tai",
-        "description": "We are a team of developers who are passionate about creating beautiful and functional websites.",
-        "image": "/placeholder.svg"
+        "description": "Over 10 years experience in financial structure, payment, tax, accounting, M&A, and wealth management.",
+        "image": "/team-members/Tai.jpeg"
       }
     ]
   },
   "teamMembers": {
     "title": "Our Members",
-    "description": "We are a team of developers who are passionate about creating beautiful and functional websites."
+    "description": "We are a team of developers who are passionate about creating beautiful and functional websites.",
+    "members": [
+      {
+        "name": "Nguyen Duc Huy",
+        "image": "/team-members/Huy.jpg",
+        "awards": [
+          "ICPC National 2021 - Third Prize",
+          "ICPC Northern Vietnam 2022 - Third Prize",
+          "Vietnam National Olympiad 21 - Third Prize"
+        ]
+      },
+      {
+        "name": "Luong Van Tu",
+        "image": "/team-members/Tus.jpeg",
+        "awards": [
+          "Finalist - Build On Contest (AWS)",
+          "Head of Design & Development Web (HAMIC)"
+        ]
+      },
+
+      {
+        "name": "Bui Khanh Duy",
+        "image": "/team-members/Duy.jpg",
+        "awards": [
+          "Vice president of HAMIC - HUS in 2022-2023",
+          "ICPC National 2021, ICPC Northern Vietnam 2022 - Third Prize",
+          "Vietnam National Olympiad 20 - Second Prize",
+          "Vietnam National Olympiad 21 - Third Prize"
+        ]
+      },
+      {
+        "name": "Vu Kim Ngan",
+        "image": "/team-members/Ngan.jpeg",
+        "awards": []
+      },
+      {
+        "name": "Vo Hong Quang",
+        "image": "/team-members/Quang.jpg",
+        "awards": [
+          "VOI 2022 Bronze medalist",
+          "ICPC Vietnam National 2022 - Honorable mention",
+          "ICT Director of USTH Coders Club 2024-2025"
+        ]
+      }
+    ]
   },
   "footer": {
     "description": "We are a team of developers who are passionate about creating beautiful and functional websites.",

@@ -1,13 +1,6 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Section from "../layouts/section";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "../ui/carousel";
 
 export default function BoardOfDirectors() {
   const t = useTranslations();
@@ -23,44 +16,30 @@ export default function BoardOfDirectors() {
       <h1 className="font-bold text-2xl md:text-4xl leading-tight">
         {t("boardOfDirectors.title")}
       </h1>
-
-      {/* <p className="px-4 max-w-2xl text-muted-foreground text-base md:text-lg text-center">
-          {t("boardOfDirectors.description")}
-        </p> */}
-      {/* </div> */}
-      <div className="mt-8 md:mt-12 px-8 w-full">
-        <Carousel opts={{ loop: true, align: "center", duration: 24 }}>
-          <CarouselContent>
-            {directors.map((director) => (
-              <CarouselItem key={director.name}>
-                <div className="flex flex-col md:flex-row items-center gap-6">
-                  <div className="w-full md:w-1/3 flex justify-center">
-                    <Image
-                      src={director.image}
-                      alt={director.name}
-                      width={200}
-                      height={200}
-                      className="w-full max-w-[200px] h-auto object-cover rounded-md"
-                    />
-                  </div>
-
-                  <div className="w-full md:w-2/3 text-center md:text-left">
-                    <h2 className="font-bold text-lg md:text-xl">{director.name}</h2>
-                    <p className="text-primary font-semibold text-base md:text-lg mt-1">
-                      {director.position}
-                    </p>
-                    <p className="text-muted-foreground text-sm md:text-base mt-2">
-                      {director.description}
-                    </p>
-                  </div>
-                </div>
-
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
-        </Carousel>
+      <div className="flex flex-wrap justify-center gap-4 mt-8 md:mt-12 px-8 text-center">
+        {directors.map((director) => (
+          <div
+            key={director.name}
+            className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(25%-1rem)] flex flex-col items-center gap-4 shadow-md py-4 border rounded-md text-center"
+          >
+            <Image
+              src={director.image}
+              alt={director.name}
+              width={256}
+              height={256}
+              className="w-32 h-32 md:w-48 md:h-48 object-cover rounded-md"
+            />
+            <h2 className="px-4 font-bold text-base md:text-lg">
+              {director.name}
+            </h2>
+            <h3 className="px-4 font-semibold text-sm md:text-base">
+              {director.position}
+            </h3>
+            <p className="px-4 text-muted-foreground text-sm md:text-base">
+              {director.description}
+            </p>
+          </div>
+        ))}
       </div>
     </Section>
   );

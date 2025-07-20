@@ -104,11 +104,11 @@ export default function Hero() {
 
           <div className="gap-6 grid grid-cols-1 lg:grid-cols-2">
             <Image
-              src="/placeholder.svg"
-              alt="Hero"
-              width={100}
-              height={100}
-              className="w-full h-48 md:h-64 object-cover"
+              src="/cover.png"
+              alt="Cover"
+              width={1000}
+              height={1000}
+              className="w-full object-cover rounded-md"
               priority
               loading="eager"
             />
