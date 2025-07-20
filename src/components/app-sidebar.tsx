@@ -2,9 +2,9 @@
 
 import { Link, useRouter } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
-import LangSwitch, { LangSwitchItem } from "./lang-switch";
+import { LangSwitchItem } from "./lang-switch";
 import ThemeSwitch, { ThemeSwitchItem } from "./theme-switch";
+import Logo from "./ui/logo";
 import {
   Sidebar,
   SidebarContent,
@@ -58,17 +58,15 @@ export interface AppSidebarProps {
 
 export default function AppSidebar({
   appName,
-  locale,
   items = APP_SIDEBAR_ITEMS,
   themes,
-  langs,
 }: AppSidebarProps) {
   const router = useRouter();
   const { toggleSidebar } = useSidebar();
   return (
     <Sidebar className={cn("md:hidden")}>
       <SidebarHeader className="flex flex-row items-center gap-2 p-4">
-        <Image src="/logo.png" alt="Logo" width={48} height={48} />
+        <Logo width={48} height={48} />
         <h1 className="text-lg font-bold">{appName}</h1>
       </SidebarHeader>
       <SidebarContent>
@@ -92,7 +90,7 @@ export default function AppSidebar({
       <SidebarFooter>
         <div className="flex flex-row gap-8">
           <ThemeSwitch items={themes} />
-          <LangSwitch items={langs} locale={locale} />
+          {/* <LangSwitch items={langs} locale={locale} /> */}
         </div>
       </SidebarFooter>
     </Sidebar>

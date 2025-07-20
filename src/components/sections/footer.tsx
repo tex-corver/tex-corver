@@ -1,8 +1,7 @@
 import { useTranslations } from "next-intl";
 import Section from "../layouts/section";
-import Image from "next/image";
+import Logo from "../ui/logo";
 import { MailIcon, MapPin, PhoneIcon } from "lucide-react";
-import { Link } from "@/i18n/navigation";
 
 export default function Footer() {
   const t = useTranslations();
@@ -15,9 +14,7 @@ export default function Footer() {
         <div className="gap-4 md:gap-12 grid grid-cols-1 md:grid-cols-2 w-full">
           <div className="flex flex-col gap-2">
             <div className="flex flex-row items-center gap-2">
-              <Image
-                src="/logo.png"
-                alt="Logo"
+              <Logo
                 width={100}
                 height={100}
                 className="w-16 h-16 object-cover"
@@ -26,11 +23,13 @@ export default function Footer() {
             <p className="text-muted-foreground text-sm md:text-base">
               {t("footer.description")}
             </p>
+          </div>
+          <div className="flex flex-col gap-2">
             <div className="flex flex-row items-center gap-2">
               <MailIcon className="w-4 h-4 text-primary" />
               <p className="text-muted-foreground text-sm md:text-base">
                 {t("footer.contact.email", {
-                  email: "test@test.com",
+                  email: "info@urieljsc.com",
                 })}
               </p>
             </div>
@@ -38,7 +37,7 @@ export default function Footer() {
               <PhoneIcon className="w-4 h-4 text-primary" />
               <p className="text-muted-foreground text-sm md:text-base">
                 {t("footer.contact.phone", {
-                  phone: "123-456-7890",
+                  phone: "+84 979100081",
                 })}
               </p>
             </div>
@@ -50,49 +49,47 @@ export default function Footer() {
                 })}
               </p>
             </div>
-          </div>
-          <div className="flex flex-col gap-2">
-            <h4 className="mb-3 font-semibold text-sm md:text-base">
+            {/* <h4 className="mb-3 font-semibold text-sm md:text-base">
               {t("footer.quickLinks")}
             </h4>
             <div className="gap-2 grid grid-cols-1 md:grid-cols-2 text-muted-foreground">
               <Link
                 href="/"
-                  className="hover:text-primary text-sm md:text-base hover:underline transition-colors"
-                >
-                  {t("common.home")}
+                className="hover:text-primary text-sm md:text-base hover:underline transition-colors"
+              >
+                {t("common.home")}
               </Link>
               <Link
                 href="/#our-products"
-                  className="hover:text-primary text-sm md:text-base hover:underline transition-colors"
-                >
-                  {t("common.ourProducts")}
+                className="hover:text-primary text-sm md:text-base hover:underline transition-colors"
+              >
+                {t("common.ourProducts")}
               </Link>
               <Link
                 href="/#our-vision"
-                  className="hover:text-primary text-sm md:text-base hover:underline transition-colors"
-                >
-                  {t("common.ourVision")}
+                className="hover:text-primary text-sm md:text-base hover:underline transition-colors"
+              >
+                {t("common.ourVision")}
               </Link>
               <Link
                 href="/#our-clients"
-                  className="hover:text-primary text-sm md:text-base hover:underline transition-colors"
-                >
-                  {t("common.ourClients")}
+                className="hover:text-primary text-sm md:text-base hover:underline transition-colors"
+              >
+                {t("common.ourClients")}
               </Link>
               <Link
                 href="/#board-of-directors"
-                  className="hover:text-primary text-sm md:text-base hover:underline transition-colors"
-                >
-                  {t("common.boardOfDirectors")}
+                className="hover:text-primary text-sm md:text-base hover:underline transition-colors"
+              >
+                {t("common.boardOfDirectors")}
               </Link>
               <Link
                 href="/#team-members"
-                  className="hover:text-primary text-sm md:text-base hover:underline transition-colors"
-                >
-                  {t("common.teamMembers")}
-              </Link>
-            </div>
+                className="hover:text-primary text-sm md:text-base hover:underline transition-colors"
+              >
+                {t("common.teamMembers")}
+              </Link> 
+            </div> */}
           </div>
         </div>
         <div className="flex flex-col gap-2 mt-4 md:mt-8 w-full text-center">

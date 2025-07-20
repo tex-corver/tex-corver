@@ -7,78 +7,36 @@ import Section from "../layouts/section";
 
 export default function OurClients() {
   const t = useTranslations();
-  const clients = [
-    {
-      name: "Client 1",
-      logo: "/placeholder.svg",
-    },
-    {
-      name: "Client 2",
-      logo: "/placeholder.svg",
-    },
-    {
-      name: "Client 3",
-      logo: "/placeholder.svg",
-    },
-    {
-      name: "Client 4",
-      logo: "/placeholder.svg",
-    },
-    {
-      name: "Client 5",
-      logo: "/placeholder.svg",
-    },
-    {
-      name: "Client 6",
-      logo: "/placeholder.svg",
-    },
-    {
-      name: "Client 7",
-      logo: "/placeholder.svg",
-    },
-    {
-      name: "Client 8",
-      logo: "/placeholder.svg",
-    },
-    {
-      name: "Client 9",
-      logo: "/placeholder.svg",
-    },
-    {
-      name: "Client 10",
-      logo: "/placeholder.svg",
-    },
-  ];
+  const clients = t.raw("ourClients.clients") as unknown as {
+    name: string;
+    description: string;
+    logo: string;
+  }[];
+
   return (
     <Section id="our-clients">
-      <div className="flex flex-col justify-center items-center gap-4 md:text-left text-center">
-        <h1 className="font-bold text-2xl md:text-4xl">{t("ourClients.title")}</h1>
-        <p className="px-4 max-w-2xl text-muted-foreground text-base md:text-lg text-center">
-          {t("ourClients.description")}
-        </p>
-      </div>
-      <div className="relative mt-8 md:mt-12 w-full overflow-hidden">
-        {/* Marquee */}
-        <Marquee className="w-full max-w-[calc(100vw-5rem)]" speed={100}>
-          {clients.map((client, idx) => (
-            <div key={idx} className="flex items-center gap-2 p-2">
-              <Image
-                src={client.logo}
-                alt={client.name}
-                width={100}
-                height={100}
-                className="w-12 md:w-16 h-12 md:h-16 object-cover"
-              />
-              <p className="text-sm md:text-base">{client.name}</p>
-            </div>
-          ))}
-        </Marquee>
-
-        {/* Left gradient overlay */}
-        <div className="top-0 left-0 z-10 absolute bg-gradient-to-r from-background to-transparent w-16 h-full pointer-events-none" />
-
-        {/* Right gradient overlay */}
-        <div className="top-0 right-0 z-10 absolute bg-gradient-to-l from-background to-transparent w-16 h-full pointer-events-none" />
+      <h1 className="font-bold text-2xl md:text-4xl leading-tight">
+        {t("ourClients.title")}
+      </h1>
+      <div className="flex flex-wrap justify-center gap-4 mt-8 md:mt-12 px-8 text-center">
+        {clients.map((client) => (
+          <div
+            key={client.name}
+            className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(25%-1rem)] flex flex-col items-center gap-4 shadow-md py-4 border rounded-md text-center"
+          >
+            <Image
+              src={client.logo}
+              alt={client.name}
+              width={64}
+              height={64}
+              className="w-16 h-16 md:w-20 md:h-20 object-cover rounded-full"
+            />
+            <h2 className="px-4 font-bold text-base md:text-lg">{client.name}</h2>
+            <p className="px-4 text-muted-foreground text-sm md:text-base">
+              {client.description}
+            </p>
+          </div>
+        ))}
       </div>
     </Section>
   );

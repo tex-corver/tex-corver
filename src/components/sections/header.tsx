@@ -2,18 +2,18 @@
 
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
 import { ComponentProps } from "react";
 import ThemeSwitch, { ThemeSwitchItem } from "../theme-switch";
+import Logo from "../ui/logo";
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuList,
 } from "../ui/navigation-menu";
-import LangSwitch, { LangSwitchItem } from "../lang-switch";
 import { useSidebar } from "../ui/sidebar";
 import { Button } from "../ui/button";
 import { MenuIcon } from "lucide-react";
+import { LangSwitchItem } from "../lang-switch";
 
 export interface NavItem {
   label: string;
@@ -31,7 +31,6 @@ export default function Header({
   items,
   className,
   themes,
-  langs,
   ...props
 }: HeaderProps) {
   const { toggleSidebar } = useSidebar();
@@ -46,7 +45,7 @@ export default function Header({
       <div className="flex justify-between items-center h-full">
         <div className="hidden md:flex items-center">
           <Link href="/">
-            <Image src="/logo.png" alt="Logo" width={48} height={48} />
+            <Logo width={48} height={48} />
           </Link>
           <NavigationMenu className="hidden md:block mx-1">
             <NavigationMenuList>
@@ -75,7 +74,7 @@ export default function Header({
         </Button>
         <div className="hidden md:flex items-center gap-2">
           <ThemeSwitch items={themes} />
-          <LangSwitch items={langs} />
+          {/* <LangSwitch items={langs} /> */}
         </div>
       </div>
     </header>
