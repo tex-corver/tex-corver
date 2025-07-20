@@ -2,7 +2,6 @@
 
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import Marquee from "react-fast-marquee";
 import Section from "../layouts/section";
 
 export default function OurClients() {
@@ -31,7 +30,9 @@ export default function OurClients() {
               height={64}
               className="w-16 h-16 md:w-20 md:h-20 object-cover rounded-full"
             />
-            <h2 className="px-4 font-bold text-base md:text-lg">{client.name}</h2>
+            <h2 className="px-4 font-bold text-base md:text-lg">
+              {client.name}
+            </h2>
             <p className="px-4 text-muted-foreground text-sm md:text-base">
               {client.description}
             </p>
