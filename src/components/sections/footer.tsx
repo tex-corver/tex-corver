@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import Section from "../layouts/section";
 import Logo from "../ui/logo";
-import { MailIcon, MapPin, PhoneIcon } from "lucide-react";
+import { MailIcon, PhoneIcon } from "lucide-react";
 
 export default function Footer() {
   const t = useTranslations();
@@ -41,14 +41,14 @@ export default function Footer() {
                 })}
               </p>
             </div>
-            <div className="flex flex-row items-center gap-2">
+            {/* <div className="flex flex-row items-center gap-2">
               <MapPin className="w-4 h-4 text-primary" />
               <p className="text-muted-foreground text-sm md:text-base">
                 {t("footer.contact.address", {
                   address: "123 Main St, Anytown, USA",
                 })}
               </p>
-            </div>
+            </div> */}
             {/* <h4 className="mb-3 font-semibold text-sm md:text-base">
               {t("footer.quickLinks")}
             </h4>

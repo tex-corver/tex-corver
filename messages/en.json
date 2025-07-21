@@ -98,7 +98,7 @@
         ]
       },
       {
-        "title": "Teacher PA – AI Assistant for Education",
+        "title": "Uriel Assistant – AI Assistant for Education",
         "description": "A chat-based AI assistant purpose-built for schools, designed to enhance personalized experience and empower with contextual academic support. Tailored for both teachers and learners, it delivers focused interactions that enhance productivity, autonomy, and engagement.",
         "image": {
           "light": "/highlighted-products/teacher-pa-white.png",
@@ -250,7 +250,7 @@
         "image": "/team-members/Albert_Phan.jpeg"
       },
       {
-        "name": "Tai",
+        "name": "Tai Pham",
         "description": "Over 10 years experience in financial structure, payment, tax, accounting, M&A, and wealth management.",
         "image": "/team-members/Tai.jpeg"
       }
@@ -277,7 +277,6 @@
           "Head of Design & Development Web (HAMIC)"
         ]
       },
-
       {
         "name": "Bui Khanh Duy",
         "image": "/team-members/Duy.jpg",
@@ -287,11 +286,6 @@
           "Vietnam National Olympiad 20 - Second Prize",
           "Vietnam National Olympiad 21 - Third Prize"
         ]
-      },
-      {
-        "name": "Vu Kim Ngan",
-        "image": "/team-members/Ngan.jpg",
-        "awards": []
       },
       {
         "name": "Vo Hong Quang",

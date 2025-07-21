@@ -19,7 +19,7 @@ export default function TeamMembers() {
       <h1 className="font-bold text-2xl md:text-4xl leading-tight">
         {t("teamMembers.title")}
       </h1>
-      <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 md:mt-12 px-2 md:px-4 md:text-left">
+      <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-8 md:mt-12 px-2 md:px-4 md:text-left">
         {members.map((member, index) => (
           <div
             key={index}

@@ -1,7 +1,6 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import Section from "../layouts/section";
 
 export default function OurClients() {
@@ -23,13 +22,13 @@ export default function OurClients() {
             key={client.name}
             className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(25%-1rem)] flex flex-col items-center gap-4 shadow-md py-4 border rounded-md text-center"
           >
-            <Image
+            {/* <Image
               src={client.logo}
               alt={client.name}
               width={64}
               height={64}
               className="w-16 h-16 md:w-20 md:h-20 object-cover rounded-full"
-            />
+            /> */}
             <h2 className="px-4 font-bold text-base md:text-lg">
               {client.name}
             </h2>
