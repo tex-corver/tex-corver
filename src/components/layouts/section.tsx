@@ -23,7 +23,7 @@ const Section: ForwardRefExoticComponent<
       <div className={cn("relative", containerClassName)}>
         <section
           id={id}
-          className={cn("container mx-auto p-8", className)}
+          className={cn("container mx-auto px-8 pt-16 md:pt-20", className)}
           ref={ref}
           {...props}
         >

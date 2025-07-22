@@ -183,7 +183,7 @@
         ]
       },
       {
-        "title": "Uriel Accounting – E-commerce Financial Reporting System",
+        "title": "Uriel Accouting – E-commerce Financial Insight System",
         "description": "Financial data becomes actionable when it's unified, accessible, and tailored to your operations. This platform brings together imported and connected data sources to generate audit-ready financial reports, enabling e-commerce businesses to stay compliant, informed, and in control.",
         "image": {
           "light": "/highlighted-products/uriel-accounting-white.png",
@@ -228,7 +228,7 @@
     "title": "Meet Our Board of Directors",
     "directors": [
       {
-        "position": "Chairman & CTO",
+        "position": "Chairman & CRO",
         "name": "Thu Tran",
         "description": "Over 12 years of experience in AI, software engineering, and data science.",
         "image": "/team-members/thu-tran.jpeg"
@@ -245,14 +245,9 @@
     "title": "Meet Our Advisors",
     "advisors": [
       {
-        "name": "Albert Phan",
-        "description": "Over 10 years experience in strategic analyzing, management, financial knowledge and technology.",
-        "image": "/team-members/Albert_Phan.jpeg"
-      },
-      {
         "name": "Tai Pham",
         "description": "Over 10 years experience in financial structure, payment, tax, accounting, M&A, and wealth management.",
-        "image": "/team-members/Tai.jpeg"
+        "image": "/team-members/Tai.png"
       }
     ]
   },
@@ -272,16 +267,12 @@
       {
         "name": "Luong Van Tu",
         "image": "/team-members/Tus.jpg",
-        "awards": [
-          "Finalist - Build On Contest (AWS)",
-          "Head of Design & Development Web (HAMIC)"
-        ]
+        "awards": ["Finalist - Build On Contest (AWS)"]
       },
       {
         "name": "Bui Khanh Duy",
         "image": "/team-members/Duy.jpg",
         "awards": [
-          "Vice president of HAMIC - HUS in 2022-2023",
           "ICPC National 2021, ICPC Northern Vietnam 2022 - Third Prize",
           "Vietnam National Olympiad 20 - Second Prize",
           "Vietnam National Olympiad 21 - Third Prize"
@@ -292,8 +283,7 @@
         "image": "/team-members/Quang.jpg",
         "awards": [
           "VOI 2022 Bronze medalist",
-          "ICPC Vietnam National 2022 - Honorable mention",
-          "ICT Director of USTH Coders Club 2024-2025"
+          "ICPC Vietnam National 2022 - Honorable mention"
         ]
       }
     ]

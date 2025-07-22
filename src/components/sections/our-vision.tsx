@@ -20,7 +20,7 @@ export default function OurVision() {
             alt="Vision"
             width={1000}
             height={1000}
-            className="w-full h-48 md:h-64 object-cover"
+            className="w-full h-48 md:h-64 object-contain"
             priority
             loading="eager"
           />
