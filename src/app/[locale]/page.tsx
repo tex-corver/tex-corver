@@ -2,6 +2,7 @@ import BoardOfDirectors from "@/components/sections/board-of-directors";
 import Hero from "@/components/sections/hero";
 import HighlightedProducts from "@/components/sections/highlighted-products";
 import OurClients from "@/components/sections/our-clients";
+import OurService from "@/components/sections/our-service";
 import OurVision from "@/components/sections/our-vision";
 import Advisors from "@/components/sections/advisors";
 import TeamMembers from "@/components/sections/team-members";
@@ -15,6 +16,7 @@ export default function Home() {
       <HighlightedProducts />
       <OurClients />
       <BoardOfDirectors />
+      <OurService />
       <Advisors />
       <TeamMembers />
     </Fragment>
