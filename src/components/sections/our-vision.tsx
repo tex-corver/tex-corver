@@ -10,7 +10,7 @@ export default function OurVision() {
         <h1 className="font-bold text-2xl md:text-4xl">
           {t("ourVision.title")}
         </h1>
-        <div className="gap-6 grid grid-cols-1 lg:grid-cols-2 items-center">
+        <div className="gap-6 grid grid-cols-1 lg:grid-cols-2 items-center pb-6">
           <p className="text-muted-foreground text-base md:text-lg whitespace-pre-line">
             {t("ourVision.description")}
           </p>

@@ -19,9 +19,9 @@ export default async function MainLayout({ children }: MainLayoutProps) {
     { href: "/", label: t("common.home") },
     { href: "/#our-vision", label: t("common.ourVision") },
     { href: "/#our-products", label: t("common.ourProducts") },
+    { href: "/#our-services", label: t("common.ourServices") },
     { href: "/#our-clients", label: t("common.ourClients") },
     { href: "/#board-of-directors", label: t("common.boardOfDirectors") },
-    { href: "/#our-service", label: t("common.ourService") },
     { href: "/#advisors", label: t("common.advisors") },
     { href: "/#team-members", label: t("common.teamMembers") },
   ];

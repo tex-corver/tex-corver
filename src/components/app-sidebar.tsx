@@ -30,16 +30,16 @@ const APP_SIDEBAR_ITEMS = [
     href: "/#our-products",
   },
   {
+    label: "Our Services",
+    href: "/#our-services",
+  },
+  {
     label: "Our Clients",
     href: "/#our-clients",
   },
   {
     label: "Board of Directors",
     href: "/#board-of-directors",
-  },
-  {
-    label: "Our Service",
-    href: "/#our-service",
   },
   {
     label: "Team Members",
