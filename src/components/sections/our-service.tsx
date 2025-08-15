@@ -5,14 +5,12 @@ import { Briefcase, Users } from "lucide-react";
 export default function OurService() {
   const t = useTranslations();
   return (
-    <Section id="our-service">
+    <Section id="our-services">
       <div className="flex flex-col gap-12">
         {/* Header Section */}
-        <div className="text-center space-y-4">
-          <h1 className="font-bold text-3xl md:text-5xl lg:text-6xl bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-            {t("ourService.title")}
-          </h1>
-        </div>
+        <h1 className="font-bold text-2xl md:text-4xl">
+          {t("ourService.title")}
+        </h1>
 
         {/* Services Grid */}
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12">

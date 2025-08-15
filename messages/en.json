@@ -11,7 +11,7 @@
   "common": {
     "home": "Home",
     "ourVision": "Vision",
-    "ourService": "Service",
+    "ourServices": "Services",
     "ourProducts": "Products",
     "ourClients": "Clients",
     "boardOfDirectors": "Board of Directors",
@@ -65,7 +65,7 @@
     "description": "Our vision is to empower businesses to thrive in the digital era by leading the way in digital transformation. We harness the power of artificial intelligence, advanced data platforms, and cutting-edge blockchain technology to deliver innovative solutions tailored to our clients’ needs. \n \n  While we have deep expertise in supporting clients in the finance and e-commerce sectors, our solutions are designed to drive success across a wide range of industries. By leveraging our multidisciplinary knowledge, we help organizations unlock new levels of efficiency, security, and growth-enabling them to stay ahead in an ever-evolving digital landscape."
   },
   "ourService": {
-    "title": "Our Service",
+    "title": "Our Services",
     "consulting": {
       "title": "Consulting Services",
       "description": "Uriel partners with businesses to navigate the complexities of the digital era, offering expert guidance on leveraging AI, blockchain, and data-driven solutions. Our consulting approach focuses on understanding your unique challenges, defining strategic roadmaps, and unlocking sustainable growth opportunities."
