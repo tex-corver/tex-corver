@@ -1,7 +1,6 @@
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import Section from "../layouts/section";
-import { Briefcase, Users, ArrowRight } from "lucide-react";
+import { Briefcase, Users } from "lucide-react";
 
 export default function OurService() {
   const t = useTranslations();
