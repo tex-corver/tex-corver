@@ -28,8 +28,9 @@
     "vn": "Vietnamese"
   },
   "hero": {
-    "title": "<span>{appName}</span>",
-    "sologan": "AI-Driven. Blockchain-Powered. Pioneering Digital Solutions.",
+    "title1": "AI-Driven",
+    "title2": "Blockchain-Powered",
+    "title3": "Pioneering Digital Solutions",
     "description": "We are a dynamic team of innovators, technologists, and industry leaders dedicated to shaping the future of digital business. Our core team brings together deep expertise in artificial intelligence, blockchain technology, fintech, and competitive programming, ensuring we deliver cutting-edge solutions for our clients.",
     "button": "Get Started",
     "expertiseCards": [

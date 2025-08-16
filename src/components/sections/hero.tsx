@@ -49,35 +49,32 @@ export default function Hero() {
         className="pt-0!"
         containerClassName="relative h-[calc(100dvh-64px)] flex items-center"
       >
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ 
-            backgroundImage: 'url(/hero-background.jpg)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat'
+          style={{
+            backgroundImage: "url(/hero-background.jpg)",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
           }}
         ></div>
-        
+
         <div className="absolute inset-0 bg-black/50 dark:bg-black/70"></div>
-        
+
         <div className="relative z-10 max-w-5xl flex flex-col text-left gap-4 md:gap-10 md:ml-16 lg:ml-24">
-          <h1 className="font-bold text-4xl md:text-6xl lg:text-7xl leading-tight text-white">
-            {t.rich("hero.title", {
-              span: (chunks) => (
-                <span className="bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200 font-extrabold text-transparent">
-                  {chunks}
-                </span>
-              ),
-              appName: t("appName"),
-            })}
-          </h1>
+          <div className="space-y-4">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-wide bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200 text-transparent text-left">
+              {t("hero.title1")}
+            </h1>
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-wide bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200 text-transparent text-left">
+              {t("hero.title2")}
+            </h1>
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-wide bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200 text-transparent text-left">
+              {t("hero.title3")}
+            </h1>
+          </div>
 
-          <p className="text-2xl md:text-3xl lg:text-4xl text-blue-100 font-normal tracking-wide italic">
-            {t("hero.sologan")}
-          </p>
-
-          <p className="text-white text-lg md:text-xl leading-relaxed max-w-2xl">
+          <p className="text-white text-sm md:text-base leading-relaxed max-w-2xl">
             {t("hero.description")}
           </p>
         </div>
