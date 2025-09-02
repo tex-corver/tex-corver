@@ -13,3 +13,4 @@ jobs:
       tag: v1
       port: 3000
       ingress: true
+      ingress-domain: urieljsc.com
