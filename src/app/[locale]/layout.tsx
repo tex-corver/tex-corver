@@ -16,10 +16,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+type Params = Promise<{ locale: string }>;
+
 export async function generateMetadata({
   params,
 }: {
-  params: { locale: string };
+  params: Params;
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale });
@@ -50,7 +52,7 @@ export default async function LocaleLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { locale: string };
+  params: Params;
 }>) {
   // Ensure that the incoming `locale` is valid
   const { locale } = await params;
